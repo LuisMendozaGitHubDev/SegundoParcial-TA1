@@ -5,7 +5,7 @@
     Routes::Add("/login","get","UsuarioController::MostrarLogin");
     Routes::Add("/login","post","UsuarioController::IniciarSesion");
     Routes::AddView("/","publico");
-    echo "para Jesus.....";
+
     Routes::Run();
 
     
